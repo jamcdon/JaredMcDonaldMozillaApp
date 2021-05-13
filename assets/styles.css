@@ -14,3 +14,64 @@
 }
 
 /* Put CSS Styles Here */
+html{
+    font-family: 'Metropolis';
+}
+.fa-plus{
+    color: white;
+}
+.fa-pencil-alt{
+    color:#A7A7A9;
+}
+.fa-github{
+    color: white;
+}
+body{
+    height: 100%;
+}
+#header{
+    background-image: linear-gradient(to right, #2D264F,#29274E,#25294E);
+    height:90px;
+    margin-top: 0;
+    display: flex;
+}
+#header img{
+    height: 70px;
+}
+#header a, #footer a{
+    /*text-decoration:none;*/
+    color: #F9FDF8;
+}
+#content{
+    background-image: url("./img/background.svg");
+    height: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#aliases{
+    display: flex;
+}
+#generate{
+    background-color:#025FE1;
+    color: white;
+    border-radius: 5%;
+    padding: 0.5% 1.2%;
+    font-size: 1.3em;
+}
+#above-accs{
+    display: flex;
+}
+#rem-style{
+    border: none;
+    background-color: inherit;
+    color: inherit;
+}
+#footer{
+    background-image: linear-gradient(to right,#2D264F,#29274E,#28284E);
+    display: flex;
+    height: 45px;
+    padding: 20px 0px 20px 0px;
+}
+#footer *{
+    padding: auto auto;
+}

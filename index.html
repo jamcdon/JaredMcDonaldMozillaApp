@@ -13,13 +13,54 @@
 
 <body>
     <!-- Put HTML Here -->
+    <div id="header">
+        <img src="assets/img/logo-relay.png" alt="Firefox Relay">
+        <nav>
+            <a href="." id="home">Home</a>
+            <a href="" id="FAQ">FAQ</a>
+            <a href="" id="tiles"><i class="fas fa-th"></i></a>
+            <a href="" id="profile"></a>
+        </nav>
+    </div>
     
+    <div id="main">
+        <div id="content">
+            <span id='aliases'>
+            <h1>Manage your Relay aliases</h1>
+            <p> <b>{{aliases}}</b>  remaining aliases</p>
+            </span>
+            <hr>
+            <button id='generate'> <i class="fas fa-plus"></i> Generate New Alias </button>
+            <br>
+            <span id="above-accs">
+                <button id="rem-style">Add account name <i class="fas fa-pencil-alt"></i></button>
+                <p>forwarding</p>
+            </span>
+            <div id="acc-names">
+                placeholder
+            </div>
+            <span>
+                <p> Firefox Relay supports email forwarding (including attachments) of email up to 150KB in size</p>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <img src="assets/img/logo-mozilla.svg" alt="Mozilla Logo">
+        <nav>
+            <a href ="">Privacy</a>
+            <a href ="">Relay Terms</a>
+            <a href ="">Legal</a>
+            <a href =""><i class="fab fa-github"></i></a>
+            
+        </nav>
+    </div>
     <!-- 
         Font Awesome v5 Free - See https://fontawesome.com/start for more info
         Example usage: <i class="fas fa-toggle-off"></i>
      -->
     <script src="https://kit.fontawesome.com/4c55e184d1.js" crossorigin="anonymous"></script>
     <script src="assets/app.js"></script>
+    
 </body>
 
 </html>
